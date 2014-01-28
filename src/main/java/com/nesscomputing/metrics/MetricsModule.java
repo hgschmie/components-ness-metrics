@@ -17,8 +17,9 @@ package com.nesscomputing.metrics;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Scopes;
-import com.nesscomputing.config.ConfigProvider;
 import com.yammer.metrics.guice.InstrumentationModule;
+
+import com.nesscomputing.config.ConfigProvider;
 
 public class MetricsModule extends AbstractModule {
 
